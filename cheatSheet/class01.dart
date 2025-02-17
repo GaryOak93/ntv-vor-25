@@ -7,6 +7,8 @@ void main(List<String> arguments) {
     Store Message and Name in seperate variable.
    */
 
+  String name = 'Kristján';
+  print('Hæ $name, eigðu góðan dag!');
   /* 1. Find a quote from a famous person you admire. Print the quote and the name of its
   author. Your output should look something like the following, including the
   quotation marks:
