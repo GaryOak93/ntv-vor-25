@@ -7,7 +7,7 @@ void main(List<String> arguments) {
   print('Hi $fullname');
 
   int nameLength = fullName.length;
-  print(nameLength)
+  print(nameLength);
 
   String SSN = '200689-2409';
   int ssnLength = SSN.length;
