@@ -45,5 +45,7 @@ void main(){
   print(bjarnibenIndex);
   names.removeAt(bjarnibenIndex);
   print(names);
-  
+
+
+
 }
