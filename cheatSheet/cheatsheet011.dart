@@ -4,7 +4,7 @@ void main(List<String> arguments) {
   print("Hi $firstName $lastName");
   String fullName = firstName + " " + lastName;
   print("Hi $fullName");
-  String SSN = "200689-2409";
+  String SSN = "0901932-2019";
   String fixSSN = SSN.replaceAll("-", "");
   //replaceAll er notað til þess að taka í burtu fyrri hlutan ss "-"
   int ssnLength = fixSSN.length;
@@ -15,6 +15,6 @@ void main(List<String> arguments) {
 
   String birthDate = SSN.substring(0,6);
   print(birthDate);
-  String email = "GunnArGeir@nTv.is";
+  String email = "kk4@nemandi.ntv.is";
   print(email.toLowerCase());
 }
